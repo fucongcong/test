@@ -1,0 +1,12 @@
+custom_register_user:
+    pattern: /custom/user/register
+    defaults: { _controller: CustomWebBundle:User:register }
+    methods: [POST]
+custom_update_user_info:
+    pattern: /custom/user/info/update
+    defaults: { _controller: CustomWebBundle:User:update }
+    methods: [POST]
+custom_user_login:
+    pattern: /custom/login
+    defaults: { _controller: CustomWebBundle:User:login }
+    methods: [POST]

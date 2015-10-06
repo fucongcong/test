@@ -1,0 +1,1 @@
+ALTER TABLE `course_lesson` ADD `organizationId` INT(10) NOT NULL DEFAULT '0' , ADD `studentCnt` INT(10) NOT NULL DEFAULT '0' , ADD `liveCourseId` VARCHAR(255) NOT NULL DEFAULT '' ;
